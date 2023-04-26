@@ -19,13 +19,13 @@ function add() {
 	background_imgTag.src= backgroundImage;
 
 	greencar_imgTag=new Image();
-	greencar_imgTag.onload=uploadgreencar;
-	greencar.src=greencar_image;
+	greencar_imgTag.onload=uploadCarroVerde;
+	greencar_imgTag.src=greencarImage;
 }
 
 function uploadBackground() {
 	//Defina a função ‘uploadBackground’
-	ctx.drawImage(background_imgTag, 0, 0,canvas.Width, canvas.height );
+	ctx.drawImage(background_imgTag, 0, 0,canvas.width, canvas.height );
 
 }
 
